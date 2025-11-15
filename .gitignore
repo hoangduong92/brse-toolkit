@@ -1,0 +1,146 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API credentials and secrets
+credentials.json
+*-credentials.json
+*.key
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+dist/
+*.js.map
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.hypothesis/
+.nyc_output
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+
+# Build outputs
+build/
+dist/
+out/
+*.min.js
+*.min.css
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Excel/Office temporary files
+~$*.xlsx
+~$*.docx
+~$*.pptx
+*.xlsm
+
+# Translation output (keep originals only)
+*_translated.xlsx
+*_translated.pptx
+*_translated.docx
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Config overrides (keep examples only)
+config.yaml
+config.json
+settings.yaml
+settings.json
+
+# Keep example configs
+!config.example.yaml
+!config.example.json
+!.env.example
+
+# Large data files
+*.csv
+*.tsv
+data/
+!data/.gitkeep
+!data/example*.csv
+
+# Compiled documentation
+docs/_build/
+site/
+
+# Package manager files
+.npm/
+.yarn/
+.pnpm-store/
